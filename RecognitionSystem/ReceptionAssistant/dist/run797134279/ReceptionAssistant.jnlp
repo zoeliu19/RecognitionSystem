@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ReceptionAssistant.jnlp">
+  <information>
+    <title>ReceptionAssistant</title>
+    <vendor>jieni</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Djava.library.path=/Users/Apple/opencv/my_build/lib "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ReceptionAssistant.jar" size="44402" download="eager" />
+    <jar href="lib/javacpp.jar" size="329904" download="eager" />
+    <jar href="lib/javacv.jar" size="386571" download="eager" />
+    <jar href="lib/mysql-connector-java-5.1.44-bin.jar" size="999635" download="eager" />
+    <jar href="lib/opencv-331.jar" size="544370" download="eager" />
+    <jar href="lib/opencv-macosx-x86_64.jar" size="11176800" download="eager" />
+    <jar href="lib/opencv.jar" size="748303" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ReceptionAssistant" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="GUI.ApplicationStart"  name="ReceptionAssistant" />
+  <update check="always"/>
+</jnlp>
